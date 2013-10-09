@@ -7,26 +7,26 @@ tags: ubuntu Jekyll
 
 #Step 1.Ruby安装#
 
-    $sudo apt-get install ruby
+$sudo apt-get install ruby
 
-    查看是否安装成功：
+查看是否安装成功：
 
-    $ ruby -v
+$ ruby -v
 
-      ruby 1.8.7 (2010-01-10 patchlevel 249) [i486-linux]
+ruby 1.8.7 (2010-01-10 patchlevel 249) [i486-linux]
 
 # Step 2. RubyGems安装（管理ruby包） #
-    $ wget http://production.cf.rubygems.org/rubygems/rubygems-2.1.6.tgz
+$ wget http://production.cf.rubygems.org/rubygems/rubygems-2.1.6.tgz
 
-    $ tar xvf rubygems-2.1.6.tgz
-    
-    $ cd rubygems-2.1.6
+$ tar xvf rubygems-2.1.6.tgz
 
-    $ sudo ruby setup.rb
+$ cd rubygems-2.1.6
 
-    $ sudo ln -s /usr/bin/gem1.8 /usr/bin/gem
+$ sudo ruby setup.rb
 
-    $ gem update –system
+$ sudo ln -s /usr/bin/gem1.8 /usr/bin/gem
 
-    $ sudo gem install jekyll
+$ gem update –system
+
+$ sudo gem install jekyll
 
